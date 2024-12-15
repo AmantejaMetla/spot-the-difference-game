@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Light blue background */
+    color: #2c3e50; /* Dark blue for text */
+    text-align: center;
+}
+
+/* Smaller game container */
+#game-container {
+    width: 900px; /* Adjust to your desired width */
+    margin: auto;
+    background-color: #e6f7ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: #3498db; /* Blue for the title */
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+
+#images {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+canvas {
+    border: 3px solid #f1c40f;
+    width: 300px; /* Set a fixed size */
+    height: auto;
+}
+
+/* Info panel styling */
+#info-panel {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+#info-panel p {
+    margin: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #2c3e50; /* Dark blue to match heading color */
+}
+
+#info-panel span {
+    color: #e74c3c; /* Highlighting with red for important stats */
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+/* Success message style */
+#success-message {
+    font-size: 20px;
+    color: #e74c3c; /* Red for emphasis */
+    margin-top: 15px;
+    font-weight: bold;
+}

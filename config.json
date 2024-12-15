@@ -1,0 +1,18 @@
+{
+    "images": {
+        "image1": "assets/Animals_Picture_original.png",
+        "image2": "assets/Animals_Picture_with_Difference.png"
+    },
+    "differences": [
+        { "x": 42, "y": 58, "radius": 25 }, 
+        { "x": 227, "y": 175, "radius": 36 }, 
+        { "x": 297, "y": 108, "radius": 31 }, 
+        { "x": 62, "y": 319, "radius": 25 },  
+        { "x": 217, "y": 274, "radius": 20 },
+        { "x": 266, "y": 293, "radius": 56 }, 
+        { "x": 442, "y": 319, "radius": 54 } 
+    ]
+}
+
+
+  
