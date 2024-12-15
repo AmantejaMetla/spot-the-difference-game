@@ -5,7 +5,7 @@ Instructions to Run the Game
 
     Clone the Repository:
 
-    git clone https://github.com/your-repo/spot-the-difference-game.git
+    git clone https://github.com/AmantejaMetla/spot-the-difference-game.git
     cd spot-the-difference-game
 
     Open the Game:
